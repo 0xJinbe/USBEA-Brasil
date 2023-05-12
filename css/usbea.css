@@ -141,6 +141,7 @@ figcaption {
   background-color: #f4f4f4;
   padding-left: 80px;
   padding-right: 80px;
+  display: flex;
 }
 
 .section.cc-cta.hide {
