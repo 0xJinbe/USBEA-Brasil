@@ -1897,10 +1897,9 @@ figcaption {
   }
 
   .comparison-positive {
-    background-position: 0 4px;
-    background-size: 16px;
-    margin-left: 10px;
-    padding-left: 20px;
+    background-image: none;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   .container-3 {
