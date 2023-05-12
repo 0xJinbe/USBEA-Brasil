@@ -1178,6 +1178,10 @@ figcaption {
   color: rgba(26, 27, 31, .75);
 }
 
+.footer-link.hide {
+  display: none;
+}
+
 .footer-social-block {
   justify-content: flex-start;
   align-items: center;
