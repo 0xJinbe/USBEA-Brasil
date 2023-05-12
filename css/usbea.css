@@ -1133,10 +1133,6 @@ figcaption {
   display: flex;
 }
 
-.footer-brand {
-  width: 20%;
-}
-
 .footer-content {
   grid-column-gap: 70px;
   grid-row-gap: 40px;
@@ -1389,6 +1385,10 @@ figcaption {
 .text-block-3 {
   color: #fff;
   position: absolute;
+}
+
+.image-2 {
+  width: 200px;
 }
 
 @media screen and (max-width: 991px) {
