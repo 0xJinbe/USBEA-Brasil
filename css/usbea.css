@@ -160,6 +160,7 @@ figcaption {
 .container {
   width: 100%;
   max-width: 1140px;
+  margin-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -310,6 +311,7 @@ figcaption {
 }
 
 .heading-jumbo {
+  color: #1d5dec;
   text-transform: none;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -508,20 +510,10 @@ figcaption {
   background-size: cover;
 }
 
-.intro-header.cc-subpage.contactimgbanner {
-  background-image: url('../images/1---Capa-.png');
-}
-
-.intro-header.cc-subpage.boardimagebanner {
-  background-image: url('../images/1---Capa-Board.png');
-}
-
-.intro-header.cc-subpage.o-quefazemosbanner {
-  background-image: url('../images/1---Capa-_-O-que-fazemos.png');
-}
-
-.intro-header.cc-subpage.quemsomos {
-  background-image: url('../images/1---Capa-_-Quem-Somos.png');
+.intro-header.cc-subpage.contactimgbanner, .intro-header.cc-subpage.boardimagebanner, .intro-header.cc-subpage.o-quefazemosbanner, .intro-header.cc-subpage.quemsomos, .intro-header.cc-subpage.porfolioimgbanner {
+  background-image: url('../images/Contato.png');
+  background-position: 50%;
+  background-size: cover;
 }
 
 .intro-content {
@@ -540,6 +532,7 @@ figcaption {
   margin-bottom: 85px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 40px;
 }
 
 .about-story-wrap {
@@ -1015,7 +1008,7 @@ figcaption {
 
 .home-content-wrap {
   margin-top: 80px;
-  margin-bottom: 120px;
+  margin-bottom: 0;
 }
 
 .home-section-wrap {
@@ -1151,7 +1144,6 @@ figcaption {
 }
 
 .image.imgcontact {
-  height: 480px;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -1321,9 +1313,12 @@ figcaption {
 
 .container-3 {
   width: 100%;
-  max-width: 940px;
+  max-width: 1250px;
+  flex-direction: column;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 
 .features-wrapper-two {
@@ -1401,8 +1396,9 @@ figcaption {
 }
 
 .hero-wrapper {
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
   display: flex;
 }
 
@@ -1531,6 +1527,54 @@ figcaption {
   background-image: url('../images/7---Carrossel_.jpg');
   background-position: 50%;
   background-size: cover;
+}
+
+.div-block-2 {
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/52615927069_3d4e66734d_o.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.flex-horizontal {
+  width: 100%;
+  max-width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.stat-block {
+  min-width: 50%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.stat-block.is-expanded {
+  flex: 1;
+}
+
+.stat.is-smaller {
+  font-size: 5rem;
+  display: inline;
+}
+
+.stat-caption {
+  text-align: center;
+  font-size: 3vw;
+  line-height: 1.3;
+}
+
+.stat-caption.smaller {
+  font-size: 1.5rem;
+}
+
+.stat-wrap {
+  flex-direction: row;
+  margin-bottom: 40px;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -1759,7 +1803,7 @@ figcaption {
   .hero-wrapper {
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: -40px;
   }
 
@@ -1770,6 +1814,9 @@ figcaption {
 
   .hero-split.right {
     max-width: 80%;
+    text-align: center;
+    align-items: center;
+    padding-right: 0;
   }
 
   .slider {
@@ -1783,6 +1830,14 @@ figcaption {
 
   .slide.slide2 {
     padding-left: 0;
+  }
+
+  .stat.is-smaller {
+    font-size: 4rem;
+  }
+
+  .stat-caption.smaller {
+    font-size: 1.5rem;
   }
 }
 
@@ -1997,6 +2052,26 @@ figcaption {
   .slide.capa {
     padding-left: 0;
   }
+
+  .flex-horizontal {
+    flex-direction: column;
+  }
+
+  .stat-block {
+    margin-bottom: 40px;
+  }
+
+  .stat.is-smaller {
+    font-size: 3rem;
+  }
+
+  .stat-caption.smaller {
+    font-size: 1.5rem;
+  }
+
+  .stat-wrap {
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2005,12 +2080,18 @@ figcaption {
     line-height: 52px;
   }
 
+  .container {
+    margin-bottom: 40px;
+    padding-top: 40px;
+  }
+
   .rich-text {
     width: 100%;
     max-width: none;
   }
 
   .paragraph-light {
+    margin-top: 0;
     font-size: 16px;
   }
 
@@ -2062,6 +2143,10 @@ figcaption {
     margin-bottom: 20px;
   }
 
+  .intro-header.cc-subpage.porfolioimgbanner {
+    margin-bottom: 60px;
+  }
+
   .section-heading-wrap {
     margin-top: 60px;
     margin-bottom: 10px;
@@ -2076,6 +2161,7 @@ figcaption {
   }
 
   .team-members {
+    flex-direction: column;
     grid-template: "."
                    "."
                    "."
@@ -2083,6 +2169,8 @@ figcaption {
                    "."
                    "."
                    / 1fr;
+    align-items: center;
+    display: flex;
   }
 
   .project-details-grid {
@@ -2166,6 +2254,10 @@ figcaption {
 
   .hero-split.right {
     max-width: 100%;
+  }
+
+  .margin-bottom-24px {
+    margin-bottom: 40px;
   }
 
   .slider {
