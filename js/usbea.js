@@ -3463,7 +3463,7 @@
         var google = null;
         var $maps;
         var namespace = ".w-widget-map";
-        var googleMapsApiKey = "";
+        var googleMapsApiKey = "AIzaSyCq79StIcKhwpVq9VqE_rYMfzCXC8Gt6lU";
         api.ready = function() {
           if (!Webflow.env()) {
             initMaps();
