@@ -835,10 +835,10 @@ figcaption {
 }
 
 .project-overview-header {
-  height: 620px;
+  height: 480px;
   color: #fff;
   background-color: #f4f4f4;
-  background-image: url('../images/portfolio-1---wide.svg');
+  background-image: url('../images/Contato.png');
   background-position: 50%;
   background-size: cover;
   justify-content: center;
@@ -881,8 +881,10 @@ figcaption {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 120px;
-  display: grid;
+  display: flex;
 }
 
 .project-pics.evento-realizado-nos-dias-28-e-29-de-junho-de-2022-na-cidade-de-s-o-paulo-promovido-pela-embaixada-dos-eua-em-parceria-com-a-usbea-brasil-e-que-tamb-m-contou-com-o-apoio-da-prefeitura-da-cidade-de-s-o-paulo-atrav-s-do-apoio-da-prefeitura-de-s-o-paulo-tivemos-o-suporte-direto-do-adesampa-agencia-s-o-paulo-de-desenvolvimento-que-cedeu-o-espa-o-para-realiza-o-dos-dois-dias-de-evento-assim-como-alguns-recursos-estruturais-para-o-evento-foram-dois-dias-de-grande-imers-o-na-hist-ria-do-programa-que-al-m-de-reunir-pessoas-de-todas-as-regi-es-do-pa-s-e-edi-es-pode-obter-dados-tang-veis-que-auxiliaram-na-potencializa-o-do-impacto-gerado-pelo-programa-nas-edi-es-seguintes-2023-e-2024-tivemos-aproximadamente-250-pessoas-presentes-em-todos-os-dois-dias-do-evento-al-m-dos-jovens-embaixadores-2022-que-em-virtude-do-p-s-pand-mica-tiveram-o-per-odo-do-pdo-pre-departure-orientation-em-s-o-paulo-e-por-isso-conseguiram-participar-do-evento-para-a-usbea-brasil-assim-como-para-a-comunidade-alumni-da-rede-usbea-este-projeto-foi-um-marco-j-que-foi-o-primeiro-evento-presencial-desenvolvido-pela-usbea-brasil-ap-s-o-per-odo-de-pandemia-e-teve-sucesso-na-realiza-o-com-90-de-aprova-o-dos-participantes-do-evento-ics {
@@ -1762,6 +1764,10 @@ figcaption {
     margin-bottom: 30px;
   }
 
+  .project-overview-header {
+    height: 480px;
+  }
+
   .project-details-grid {
     width: 80%;
     grid-row-gap: 50px;
@@ -1997,6 +2003,10 @@ figcaption {
     line-height: 28px;
   }
 
+  .project-pics {
+    flex-direction: column;
+  }
+
   .detail-image {
     margin-bottom: 15px;
   }
@@ -2138,7 +2148,7 @@ figcaption {
 
   .container {
     margin-bottom: 40px;
-    padding-top: 40px;
+    padding-top: 0;
   }
 
   .rich-text {
@@ -2227,6 +2237,10 @@ figcaption {
                    / 1fr;
     align-items: center;
     display: flex;
+  }
+
+  .project-overview-header {
+    height: 200px;
   }
 
   .project-details-grid {
@@ -2324,6 +2338,10 @@ figcaption {
 
   .slide.capa {
     padding-left: 0;
+  }
+
+  .div-block-3, .div-block-3-copy {
+    width: 300px;
   }
 }
 
