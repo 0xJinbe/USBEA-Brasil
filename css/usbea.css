@@ -7,6 +7,12 @@
   display: grid;
 }
 
+.w-backgroundvideo-backgroundvideoplaypausebutton:focus-visible {
+  outline-offset: 2px;
+  border-radius: 50%;
+  outline: 2px solid #3b79c3;
+}
+
 body {
   color: #1a1b1f;
   font-family: Montserrat, sans-serif;
@@ -846,9 +852,17 @@ figcaption {
   background-position: 50%;
 }
 
+.project-overview-header.cc-project-2-header.us-youth-ambassadors-programbanner {
+  background-image: url('../images/Contato.png');
+}
+
 .project-overview-header.cc-project-3-header {
   background-image: url('../images/portfolio-3---wide.svg');
   background-size: cover;
+}
+
+.project-overview-header.cc-project-3-header._20-anos-do-programa-jovens-embaixadoresbanner, .project-overview-header.ivlp-80-anosbanner {
+  background-image: url('../images/Contato.png');
 }
 
 .project-details-grid {
@@ -862,12 +876,26 @@ figcaption {
 }
 
 .project-pics {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
   margin-bottom: 120px;
+  display: grid;
+}
+
+.project-pics.evento-realizado-nos-dias-28-e-29-de-junho-de-2022-na-cidade-de-s-o-paulo-promovido-pela-embaixada-dos-eua-em-parceria-com-a-usbea-brasil-e-que-tamb-m-contou-com-o-apoio-da-prefeitura-da-cidade-de-s-o-paulo-atrav-s-do-apoio-da-prefeitura-de-s-o-paulo-tivemos-o-suporte-direto-do-adesampa-agencia-s-o-paulo-de-desenvolvimento-que-cedeu-o-espa-o-para-realiza-o-dos-dois-dias-de-evento-assim-como-alguns-recursos-estruturais-para-o-evento-foram-dois-dias-de-grande-imers-o-na-hist-ria-do-programa-que-al-m-de-reunir-pessoas-de-todas-as-regi-es-do-pa-s-e-edi-es-pode-obter-dados-tang-veis-que-auxiliaram-na-potencializa-o-do-impacto-gerado-pelo-programa-nas-edi-es-seguintes-2023-e-2024-tivemos-aproximadamente-250-pessoas-presentes-em-todos-os-dois-dias-do-evento-al-m-dos-jovens-embaixadores-2022-que-em-virtude-do-p-s-pand-mica-tiveram-o-per-odo-do-pdo-pre-departure-orientation-em-s-o-paulo-e-por-isso-conseguiram-participar-do-evento-para-a-usbea-brasil-assim-como-para-a-comunidade-alumni-da-rede-usbea-este-projeto-foi-um-marco-j-que-foi-o-primeiro-evento-presencial-desenvolvido-pela-usbea-brasil-ap-s-o-per-odo-de-pandemia-e-teve-sucesso-na-realiza-o-com-90-de-aprova-o-dos-participantes-do-evento-ics {
+  grid-template-rows: auto auto auto auto;
 }
 
 .detail-image {
   width: 100%;
   margin-bottom: 30px;
+}
+
+.detail-image.ivlp80 {
+  width: 50%;
 }
 
 .blog-detail-header-wrap {
@@ -1575,6 +1603,34 @@ figcaption {
   flex-direction: row;
   margin-bottom: 40px;
   display: flex;
+}
+
+.div-block-3 {
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/Grant_IVLP.jpeg');
+  background-position: 50%;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.project-pics-botton {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  margin-bottom: 120px;
+  display: block;
+}
+
+.div-block-3-copy {
+  width: 500px;
+  height: 500px;
+  background-image: url('../images/157803677_112076054244683_6090424403147400634_n.jpg');
+  background-position: 50%;
+  background-size: cover;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2351,7 +2407,7 @@ figcaption {
   grid-area: 1 / 2 / 2 / 3;
 }
 
-#w-node-_8a88d5f3-bb49-0490-0026-0020a61f3c68-c732a386, #w-node-dfd070ee-89b1-22b5-831f-5b7280294120-c732a386, #w-node-_5e7d15f7-e80f-55ae-3da4-dff3934ba1d4-c732a386, #w-node-_64050844-5897-a00e-96b9-bf27d6cd7dab-c732a386, #w-node-_4acf41db-490c-9dec-6686-924783a5110d-c732a386, #w-node-_35891a82-98e5-a51e-87d3-f82c4fac33a4-c732a386 {
+#w-node-_68f22de4-e839-1b6b-5f86-e9396d28825b-c732a385, #w-node-_8a88d5f3-bb49-0490-0026-0020a61f3c68-c732a386, #w-node-dfd070ee-89b1-22b5-831f-5b7280294120-c732a386, #w-node-_5e7d15f7-e80f-55ae-3da4-dff3934ba1d4-c732a386, #w-node-_64050844-5897-a00e-96b9-bf27d6cd7dab-c732a386, #w-node-_4acf41db-490c-9dec-6686-924783a5110d-c732a386, #w-node-_35891a82-98e5-a51e-87d3-f82c4fac33a4-c732a386 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
