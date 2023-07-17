@@ -327,10 +327,6 @@ figcaption {
   line-height: 80px;
 }
 
-.heading-jumbo.hide {
-  display: none;
-}
-
 .heading-jumbo-small {
   text-transform: none;
   margin-top: 10px;
@@ -526,10 +522,6 @@ figcaption {
   width: 70%;
   max-width: 1140px;
   text-align: center;
-}
-
-.intro-content.cc-homepage {
-  margin-bottom: 20px;
 }
 
 .motto-wrap {
@@ -861,7 +853,7 @@ figcaption {
   background-size: cover;
 }
 
-.project-overview-header.cc-project-3-header._20-anos-do-programa-jovens-embaixadoresbanner, .project-overview-header.ivlp-80-anosbanner {
+.project-overview-header.cc-project-3-header._20-anos-do-programa-jovens-embaixadoresbanner {
   background-image: url('../images/Contato.png');
 }
 
@@ -896,10 +888,6 @@ figcaption {
   margin-bottom: 30px;
 }
 
-.detail-image.ivlp80 {
-  width: 50%;
-}
-
 .blog-detail-header-wrap {
   width: 70%;
   margin: 60px auto;
@@ -917,64 +905,6 @@ figcaption {
 
 .detail-header-image.w--current {
   margin-bottom: 60px;
-}
-
-.blog-list-wrap {
-  margin-bottom: 100px;
-}
-
-.blog-item {
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.blog-preview-image {
-  width: 100%;
-  height: 620px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-  background-position: 0 0;
-  background-size: cover;
-  margin-bottom: 45px;
-  transition: opacity .6s;
-  display: block;
-}
-
-.blog-preview-image:hover {
-  opacity: .8;
-}
-
-.blog-preview-image:active {
-  opacity: .7;
-}
-
-.blog-summary-wrap {
-  width: 70%;
-  text-align: left;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.blog-heading-link {
-  margin-bottom: 10px;
-  font-family: Poppins, sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 46px;
-  text-decoration: none;
-}
-
-.blog-heading-link:hover {
-  opacity: .8;
-}
-
-.blog-heading-link:active {
-  opacity: .7;
 }
 
 .contact-email-link {
@@ -1070,13 +1000,6 @@ figcaption {
   display: none;
 }
 
-.intro-text {
-  width: 80%;
-  margin-bottom: 35px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .collection-wrap {
   flex-wrap: wrap;
   align-content: flex-start;
@@ -1132,7 +1055,7 @@ figcaption {
   position: relative;
 }
 
-.container-2 {
+.containervalores {
   width: 100%;
   max-width: 940px;
   margin-left: auto;
@@ -1166,16 +1089,6 @@ figcaption {
   padding-left: 40px;
   font-family: Poppins, sans-serif;
   font-weight: 500;
-}
-
-.image {
-  width: 100%;
-  height: 500px;
-}
-
-.image.imgcontact {
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .footer-dark {
@@ -1232,10 +1145,6 @@ figcaption {
 
 .footer-link:hover {
   color: rgba(26, 27, 31, .75);
-}
-
-.footer-link.hide {
-  display: none;
 }
 
 .footer-social-block {
@@ -1307,16 +1216,16 @@ figcaption {
   background-image: url('../images/6---GRID.jpg');
 }
 
-.heading, .heading-2 {
+.heading, .headingabout {
   font-family: Poppins, sans-serif;
   font-weight: 700;
 }
 
-.heading-2.missao {
+.headingabout.missao {
   margin-bottom: 60px;
 }
 
-.heading-3 {
+.headingaboutvalores {
   font-family: Poppins, sans-serif;
   font-weight: 700;
 }
@@ -1330,7 +1239,7 @@ figcaption {
   font-family: Poppins, sans-serif;
 }
 
-.heading-4, .heading-5, .heading-6 {
+.heading-4, .heading-5, .headingportfolio {
   font-family: Poppins, sans-serif;
   font-weight: 700;
 }
@@ -1341,7 +1250,7 @@ figcaption {
   position: relative;
 }
 
-.container-3 {
+.containerhome {
   width: 100%;
   max-width: 1250px;
   flex-direction: column;
@@ -1409,12 +1318,12 @@ figcaption {
   margin-right: 16px;
 }
 
-.heading-7 {
+.headinghome {
   font-family: Poppins, sans-serif;
   font-weight: 700;
 }
 
-.text-block-2, .paragraph, .paragraph-2, .paragraph-3 {
+.textblockhome, .paragraph, .paragraph-2, .paragraph-3 {
   font-family: Poppins, sans-serif;
   font-weight: 500;
 }
@@ -1478,7 +1387,7 @@ figcaption {
   display: none;
 }
 
-.heading-8 {
+.headinghomeimpacto {
   font-family: Poppins, sans-serif;
   font-weight: 700;
 }
@@ -1487,7 +1396,7 @@ figcaption {
   width: 150px;
 }
 
-.heading-9 {
+.headingdiretoria {
   font-family: Poppins, sans-serif;
   font-weight: 700;
 }
@@ -1559,7 +1468,7 @@ figcaption {
   background-size: cover;
 }
 
-.div-block-2 {
+.photodividerwrapper {
   width: 100%;
   height: 500px;
   background-image: url('../images/52615927069_3d4e66734d_o.jpg');
@@ -1645,10 +1554,6 @@ figcaption {
   align-items: center;
   margin-bottom: 120px;
   display: grid;
-}
-
-.project-pics-copy.evento-realizado-nos-dias-28-e-29-de-junho-de-2022-na-cidade-de-s-o-paulo-promovido-pela-embaixada-dos-eua-em-parceria-com-a-usbea-brasil-e-que-tamb-m-contou-com-o-apoio-da-prefeitura-da-cidade-de-s-o-paulo-atrav-s-do-apoio-da-prefeitura-de-s-o-paulo-tivemos-o-suporte-direto-do-adesampa-agencia-s-o-paulo-de-desenvolvimento-que-cedeu-o-espa-o-para-realiza-o-dos-dois-dias-de-evento-assim-como-alguns-recursos-estruturais-para-o-evento-foram-dois-dias-de-grande-imers-o-na-hist-ria-do-programa-que-al-m-de-reunir-pessoas-de-todas-as-regi-es-do-pa-s-e-edi-es-pode-obter-dados-tang-veis-que-auxiliaram-na-potencializa-o-do-impacto-gerado-pelo-programa-nas-edi-es-seguintes-2023-e-2024-tivemos-aproximadamente-250-pessoas-presentes-em-todos-os-dois-dias-do-evento-al-m-dos-jovens-embaixadores-2022-que-em-virtude-do-p-s-pand-mica-tiveram-o-per-odo-do-pdo-pre-departure-orientation-em-s-o-paulo-e-por-isso-conseguiram-participar-do-evento-para-a-usbea-brasil-assim-como-para-a-comunidade-alumni-da-rede-usbea-este-projeto-foi-um-marco-j-que-foi-o-primeiro-evento-presencial-desenvolvido-pela-usbea-brasil-ap-s-o-per-odo-de-pandemia-e-teve-sucesso-na-realiza-o-com-90-de-aprova-o-dos-participantes-do-evento-ics {
-  grid-template-rows: auto auto auto auto;
 }
 
 @media screen and (max-width: 991px) {
@@ -1803,18 +1708,6 @@ figcaption {
     height: 460px;
   }
 
-  .blog-item {
-    width: 80%;
-  }
-
-  .blog-preview-image {
-    height: 460px;
-  }
-
-  .blog-summary-wrap {
-    width: 100%;
-  }
-
   .about-grid {
     grid-row-gap: 50px;
     text-align: center;
@@ -1827,10 +1720,6 @@ figcaption {
     grid-template-columns: 1fr;
     grid-template-areas: "."
                          ".";
-  }
-
-  .intro-text {
-    width: auto;
   }
 
   .collection-wrap {
@@ -1846,7 +1735,7 @@ figcaption {
     padding-right: 15px;
   }
 
-  .container-2 {
+  .containervalores {
     max-width: 728px;
   }
 
@@ -1859,7 +1748,7 @@ figcaption {
     grid-template-columns: 1fr 1fr;
   }
 
-  .container-3 {
+  .containerhome {
     max-width: 728px;
   }
 
@@ -2031,15 +1920,6 @@ figcaption {
     width: 90%;
     max-width: 470px;
     text-align: left;
-  }
-
-  .blog-item {
-    width: 90%;
-    max-width: 470px;
-  }
-
-  .blog-summary-wrap {
-    text-align: center;
   }
 
   .utility-page-wrap {
@@ -2267,7 +2147,7 @@ figcaption {
     width: 100%;
   }
 
-  .blog-detail-header-wrap, .blog-item {
+  .blog-detail-header-wrap {
     width: 100%;
     max-width: none;
   }
@@ -2276,7 +2156,7 @@ figcaption {
     padding-top: 0;
   }
 
-  .container-2 {
+  .containervalores {
     max-width: none;
   }
 
@@ -2300,7 +2180,7 @@ figcaption {
     padding-top: 40px;
   }
 
-  .container-3 {
+  .containerhome {
     max-width: none;
   }
 
@@ -2321,7 +2201,7 @@ figcaption {
     margin-right: 0;
   }
 
-  .heading-7 {
+  .headinghome {
     text-align: center;
   }
 
