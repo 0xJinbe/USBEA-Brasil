@@ -435,6 +435,10 @@ figcaption {
   color: #32343a;
 }
 
+.navigation-item.hide {
+  display: none;
+}
+
 .logo-image {
   display: block;
 }
@@ -2298,18 +2302,6 @@ figcaption {
 
 #w-node-c6492192-38af-3b06-d983-59501814d94f-c732a37f, #w-node-af97c770-7373-f5c7-f899-5528bde413d8-c732a37f, #w-node-c6492192-38af-3b06-d983-59501814d954-c732a37f, #w-node-_7ae88574-245f-32b4-2cae-3acb14843bf7-c732a37f, #w-node-c6492192-38af-3b06-d983-59501814d959-c732a37f, #w-node-_53141a66-6597-7424-e50c-76e5168544b4-c732a37f, #w-node-_60274281-36be-4b02-c5c1-6b1c9188e279-c732a37f {
   grid-area: span 1 / span 1 / span 1 / span 1;
-}
-
-#w-node-fdb36b8f-ab3a-e0d7-295c-623b2268f28c-c732a380 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-
-#w-node-fdb36b8f-ab3a-e0d7-295c-623b2268f296-c732a380 {
-  grid-area: 2 / 1 / 3 / 2;
-}
-
-#w-node-fdb36b8f-ab3a-e0d7-295c-623b2268f29f-c732a380 {
-  grid-area: 3 / 1 / 4 / 2;
 }
 
 #w-node-_3f61509a-fac7-b0d5-3763-509be705858e-c732a381 {
